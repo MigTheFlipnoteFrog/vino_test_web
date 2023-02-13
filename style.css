@@ -47,3 +47,8 @@ span.debug {
   float: right;
   margin-right: 0;
 }
+
+.tvbuttons {
+    position: fixed;
+    top: 242px;
+}
