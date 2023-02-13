@@ -35,15 +35,19 @@ span.debug {
 }
 
 #mii-image {
+    width: 54px;
+    height: 54px;
     position: absolute;
     top: 8px;
     left: 8px;
+    border-radius: 3px;
 }
 
 #mii-name {
+    font-size: 18px;
     position: absolute;
-    top: 20px;
-    left: 58px;
+    top: 26px;
+    left: 70px;
 }
 
 .mat-card{ 
