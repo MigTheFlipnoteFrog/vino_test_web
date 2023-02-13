@@ -1,0 +1,49 @@
+/* TODO: fix "mat-card" margins to be on the right correctly, this does not work atm, but leftside does. Also, investigate whether this actually makes elements not work, and improve it. */
+/* Update: right margins work as of 9:46PM Feb 12, however, they are not aligned with the box, or styled like the original. Fix at some point???*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+span.debug {
+  color: red;
+}
+.leftside { 
+  float: left;
+}
+
+.float-right {
+    float: right;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+#tvremote {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.mii-info * {
+    position: absolute;
+}
+
+#mii-image {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+#mii-name {
+    position: absolute;
+    top: 20px;
+    left: 58px;
+}
+
+.mat-card{ 
+  align-items: right;
+  justify-content: space-between;
+  float: right;
+  margin-right: 0;
+}
