@@ -1,7 +1,8 @@
+<!-- saved from url=(0027)https://imsus.gay/vino.html -->
 <html><head>
 <link rel="stylesheet" href="style.css"/>
 <div class="leftside mii-info">
-<img id="mii-image" width="72" height="72"/>
+<img id="mii-image" width="42" height="42"/>
 <span id="mii-name"/>
 </div>
 <!-- Note: deprecate to IE5 level at some point, to accomodate for Wii U Webkit's similar compatibility level.!--> 
@@ -17,7 +18,9 @@
 <!-- Keep these line breaks and span class to seperate debug buttons during debugging, remove in production please! :)-->
 <span class="leftside"/>
 <span class="debug"/>
+<!-- Comment out Line 22 if using NewRodin Pro, and uncomment Line 23 if you are also using NewRodin, so as to speak and/or say.-->
 <br><br><br><br>
+<!-- <br><br> -->
 <p>WHITE DEBUG BUTTONS ARE BELOW THIS MESSAGE, REMOVE IN PRODUCTION &
 <br/>CONTACT LUNA OR PH4NPY PLEASE</p>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body> <button onclick="vino.ir_send(0, 0);">DEBUG_POWER</button> <button onclick="vino.memo_open(true);">OLIVE_MEMO</button>
@@ -28,6 +31,8 @@
 <button onclick="vino.ir_enableCodeset(1)">SET_ENABLE</button>
 <button onclick="console.log(vino_polyfill)">DEBUG_MSG</button>
 <button onclick="alert(vino_polyfill)">ALERTFILL</button>
+<button onclick="window.vinoPolyfillIrEnabled = true">_FORCE_FILLIRENABLED_DEBUGFUNCTION_</button>
+<button onclick="alert(activeUserSlot)">GET</button>
 </span>
 </span>
 <style>
