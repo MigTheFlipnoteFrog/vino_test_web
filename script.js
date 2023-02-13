@@ -4,7 +4,7 @@ const vino_polyfill = {
         else if (arg == 0) window.vinoPolyfillIrEnabled = false;
     },
     ir_send: (code, what) => {
-        console.log("sent ir code",code)
+        alert("sent ir code",code)
     },
     act_getName: (slot) => {
         return "jan Luna"
@@ -14,7 +14,7 @@ const vino_polyfill = {
     },
     act_getCurrentSlotNo: () => { return 0 },
     memo_open: () => {
-        console.log("opened olive memo")
+        alert("opened olive memo")
     }
 }
 

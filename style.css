@@ -1,9 +1,14 @@
-/* TODO: fix "mat-card" margins to be on the right correctly, this does not work atm, but leftside does. Also, investigate whether this actually makes elements not work, and improve it. */
-/* Update: right margins work as of 9:46PM Feb 12, however, they are not aligned with the box, or styled like the original. Fix at some point???*/
-html, body {
+@font-face {
+    font-family: wiiu-font;
+    src: url(wii.ttf); /* Dev reference for NewRodin font: https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers*/
+}
+
+html, head, body, footer {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: wiiu-font;
+    font-weight: 900;
 }
 
 span.debug {
@@ -30,15 +35,19 @@ span.debug {
 }
 
 #mii-image {
+    width: 54px;
+    height: 54px;
     position: absolute;
     top: 8px;
     left: 8px;
+    border-radius: 3px;
 }
 
 #mii-name {
+    font-size: 18px;
     position: absolute;
-    top: 20px;
-    left: 58px;
+    top: 26px;
+    left: 70px;
 }
 
 .mat-card{ 
